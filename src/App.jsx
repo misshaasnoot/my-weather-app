@@ -1,11 +1,16 @@
+
+import Weather from "./Weather";
+
 import "./App.css";
-import 
+
 
 function App() {
   return (
     <div className="App">
       <div className="container">
         <h1>Weather App</h1>
+        <Weather defaultCity="Amsterdam"/>
+
         <footer>
           This project is created by{" "}
           <a href="https://sophiehaasnoot.netlify.app"

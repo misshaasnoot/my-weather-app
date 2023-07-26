@@ -1,14 +1,13 @@
 
 import Weather from "./Weather";
-
 import "./App.css";
 
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Amsterdam"/>
+        <Weather defaultCity="Amsterdam" />
 
         <footer>
           This project is created by{" "}
@@ -23,9 +22,5 @@ function App() {
         </footer>
       </div>
     </div>
-
-
-  )
+  );
 }
-
-export default App;
